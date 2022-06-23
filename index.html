@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Rating Component</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+
+    <link rel="stylesheet" href="./global.css" />
+
+   <script src="./index.js" defer></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Overpass:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-[#121417]">
+    <!-- Rating state start -->
+    <div class="main-card h-screen flex justify-center items-center rounded-lg">
+      <div class="card bg-[#252d37] rounded-3xl" >
+        <div class="first-half  ">
+          <div class="icon">
+            <img
+              src="../interactive-rating-component-main/images/icon-star.svg"
+              alt=""
+            />
+          </div>
+          <div class="ask-line text-2xl text-white py-4 font-semibold">How did we do?</div>
+          <div class="para-line text-[#959eac] text-m">
+            Please let us know how we did with your support request. All feedback
+            is appreciated to help us improve our offering!
+          </div>
+          <div class="btn flex justify-center items-center py-5 gap-4">
+            <button id="1" class=" rate-btn h-12 w-12 flex justify-center items-center text-[#959eac] rounded-full bg-[#3c4049] ">1 </button>
+            <button id="2" class=" rate-btn h-12 w-12 flex justify-center items-center text-[#959eac] rounded-full bg-[#3c4049] ">2 </button>
+            <button id="3" class=" rate-btn h-12 w-12 flex justify-center items-center text-[#959eac] rounded-full bg-[#3c4049] ">3 </button>
+            <button id="4" class=" rate-btn h-12 w-12 flex justify-center items-center text-[#959eac] rounded-full bg-[#3c4049] ">4 </button>
+            <button id="5 "class=" rate-btn h-12 w-12 flex justify-center items-center text-[#959eac] rounded-full bg-[#3c4049] ">5 </button>
+            
+          </div>
+          <div class="submit-btn mt-4 py-2 rounded-full flex justify-center items-center text-white bg-orange-500 cursor-pointer">SUBMIT</div>
+        </div>
+        <!-- Rating state end --5
+        <!-- Thank you state start -->
+        <div class="thankyou-pg hidden">
+          <div class="pic mt-5 flex justify-center items-center"">
+            <img
+              src="../interactive-rating-component-main/images/illustration-thank-you.svg"
+              alt=""
+            />
+          </div>
+          <div class="selection  my-4 
+          bg-[#3c4049] border-[#3c4049] rounded-full text-center text-sm">
+          
+          </div>
+          <div class="thank-you flex justify-center items-center text-2xl text-white my-2">
+            Thank you!
+          </div>
+          <div class="thankyou-para text-sm text-[#959eac] text-center">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thank you state end -->
+  </body>
+
+
+</html>

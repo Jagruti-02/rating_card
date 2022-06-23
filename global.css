@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: overpass;
+}
+
+body{
+    /* background-color: rgb(119, 46, 46); */
+    height: 100vh;
+}
+
+img{
+    padding: 10px;
+}
+
+.icon{
+    border: 2px solid hsl(222, 10%, 26%);
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    background-color: hsl(222, 10%, 26%);
+
+}
+
+.card{
+    min-height: 380px;
+    max-width: 380px;
+    padding: 30px;
+}
+
+
+.selection{
+    padding: 4px 12px;
+    color: orange;
+    height: 25px;
+    width: 180px;
+    margin-left: 70px;
+
+}
+
+.rate-btn:active{
+    background-color:#fb7413;
+}
+
+.active{
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.submit-btn:active{
+    background-color: white;
+    color:#fb7413 ;
+}
+
+
+
